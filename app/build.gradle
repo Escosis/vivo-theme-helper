@@ -1,0 +1,35 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace = 'io.github.escosis.vivothemehelper'
+    compileSdk = 36
+
+    defaultConfig {
+        applicationId = 'io.github.escosis.vivothemehelper'
+        minSdk = 28
+        targetSdk = 36
+        versionCode = 24028001
+        versionName = '24.2.8.0-r1'
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        main.assets.srcDir(rootProject.file('docs'))
+    }
+
+    buildTypes {
+        release {
+            signingConfig = null
+        }
+    }
+}
+
+dependencies {
+    compileOnly files('libs/xposed-api-82.jar')
+}

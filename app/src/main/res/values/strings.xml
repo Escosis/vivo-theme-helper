@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">vivo主题增强</string>
+    <string name="module_description">适配指定版本 vivo主题的 LSPosed 模块；兼容范围与使用说明见模块启动页。</string>
+    <string-array name="xposed_scope"><item>com.bbk.theme</item></string-array>
+    <string name="launcher_doc_unavailable">无法读取 APK 内的发布说明。</string>
+    <string name="launcher_required">必看</string>
+    <string name="launcher_open_theme">打开 vivo主题</string>
+    <string name="launcher_open_repository">访问项目仓库</string>
+    <string name="launcher_host_unavailable">无法打开 vivo主题，请确认已安装并启用。</string>
+    <string name="launcher_check_host">检查宿主</string>
+    <string name="launcher_check_host_description">检查已安装 vivo主题的版本和完整 DEX 哈希</string>
+    <string name="launcher_checking_host">正在检查版本和 %1$d 个 DEX 哈希…</string>
+    <string name="launcher_host_matched">版本和 %1$d 个 DEX 哈希匹配。\n是否启用请在 LSPosed 管理器中确认。</string>
+    <string name="launcher_check_failed">检查失败：%1$s\n%2$s</string>
+    <string name="launcher_no_browser">无法在外部浏览器打开链接。</string>
+</resources>
